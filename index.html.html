@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="port.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Common styles for all screen sizes */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #navbar {
+      background-color: rgb(178, 40, 40);
+      padding: 10px;
+    }
+
+    #navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navbar li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    #navbar a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    #welcome-section {
+      text-align: center;
+      padding: 100px 0;
+      background-color: rgb(38, 24, 24);
+    }
+
+    #welcome-section h1 {
+      font-size: 28px;
+    }
+
+    #welcome-section p {
+      font-size: 24px;
+    }
+
+    .projects-section {
+      margin-top: 20px;
+      background-color: rgb(42, 42, 78);
+      color: white;
+      padding: 20px;
+    }
+
+    .project-section-header {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .project-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center the project items */
+    }
+
+    .project-item {
+      flex: 1;
+      margin: 10px;
+      cursor: pointer;
+      max-width: calc(33.33% - 20px);
+    }
+
+    .project-item img {
+      max-width: 100%;
+    }
+
+    #contact {
+      background-color: rgb(41, 38, 38);
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      padding: 40px;
+    }
+    .contact-info img {
+  max-width: 30px; 
+  vertical-align: middle; 
+}
+
+
+
+    #contact h2 {
+      font-size: 28px;
+    }
+
+    #footer-section {
+      border-top: 6px solid brown;
+      padding-top: 20px;
+      text-align: center;
+      font-weight: bold;
+      background-color: rgb(78, 73, 73);
+    }
+
+    #footer-section h1 {
+      font-size: 16px;
+    }
+
+    /* Mobile-specific styles */
+    @media (max-width: 768px) {
+      #navbar a {
+        font-size: 18px;
+      }
+
+      #welcome-section h1 {
+        font-size: 24px;
+      }
+
+      #welcome-section p {
+        font-size: 20px;
+      }
+
+      .project-item {
+        max-width: calc(50% - 20px);
+      }
+
+      .project-section-header {
+        font-size: 20px;
+      }
+
+      #contact h2 {
+        font-size: 24px;
+      }
+
+      #footer-section h1 {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Rest of your HTML code remains unchanged -->
+  <body>
+    <!-- Navbar with an id of navbar -->
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Welcome</a></li>
+        <li><a href="https://neocities.org/">Projects</a></li>
+        <li><a id="profile-link" href="https://github.com/Poojabhure" target="_blank">Profile</a></li>
+     </ul>
+    </nav>
+  
+    <!-- Welcome section with an id of welcome-section -->
+    <section id="welcome-section">
+      <h1 style="color: white;">Heyyy!. I AM POOJA BHURE</h1>
+      <p style="color: rgb(154, 31, 31);">A WEB DEVELOPER</p>
+    
+    
+    </section>
+    <div class="project-grid">
+        <div class="project-item">
+          <a href="https://bhure.neocities.org/nykaa%20clone">
+            <img src="nykaaa.png"   alt="Project 1">
+        </a>
+        </div>
+        <div class="project-item">
+          <a href="https://bhure.neocities.org/h&m">
+            <img src="H&M.png" alt="Project 2">
+          </a>
+        </div>
+        <div class="project-item">
+          <a href="https://bhure.neocities.org/quiz">
+            <img src="quiz.png" alt="Project 3">
+         </a>
+        </div>
+    </div>
+    <div class="project-grid">
+        <div class="project-item">
+          <a href="https://bhure.neocities.org/jsconverters">
+            <img src="cal.png" alt="Project 2">
+              </a>
+        </div>
+        <div class="project-item">
+          <a href="https://bhure.neocities.org/pomooriginal">
+            <img src="pomo.png" alt="Project 2">
+        </a>
+        </div>
+        <div class="project-item">
+          <a href="https://bhure.neocities.org/currencyconverter">
+            <img src="currency.conv.png" alt="Project 2">
+             </a>
+        </div>
+    </div>
+  
+  </body>
+  </html>
+  
+  
+    </section>
+    <!-- Footer Section-->
+    <section id="contact">
+      <div class="contact-details">
+        <h2>Let's Work Togater...</h2>
+        <p>ping me using these.</p>
+        <div class="contact-info mail-container">
+              <img src="mail.jpg" width="12%" >
+              <a href="mailto:bhurep178@gmails.com">bhurep178@gmail.com</a>
+          </div>
+          <div class="contact-info phone-container">
+              <img src="phone.jpg" width="12%" >
+              <p><span class="phone">+91-8088137325</span></p>
+          </div>
+          <div class="contact-info linkedin-container"> 
+              <img src="linkedin.jpg" width="12%">
+              <a href="https://www.linkedin.com/in/pooja-bhure-b38003252/">LinkedIn Profile</a>
+  
+          </div>
+  
+      </div>
+    </section>
+    <section id="footer-section">
+      <h1>*All The Projects And Given Details Are Real By @POOJA BHURE </h1>
+    </section>
+  
+  
+    <!-- Add more project-tile elements as needed -->
+  
+    <!-- JavaScript to ensure navbar always at the top of the viewport -->
+    <script>
+      window.onscroll = function() {
+        const navbar = document.getElementById('navbar');
+        if (window.pageYOffset > 0) {
+          navbar.style.position = 'fixed';
+        } else {
+          navbar.style.position = 'static';
+        }
+      };
+  
+  
+       
+  
+    </script>
+  
+  
+  
+  </body>
+  </html>
+  
+  
+  
+  
